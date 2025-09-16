@@ -43,6 +43,7 @@ section {
 }
 h2{
     margin-top: 20px;
+    color: hsl(0, 0%, 95%);
 }
 img{
 
@@ -51,9 +52,11 @@ img{
 }
 p{
     margin-top: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 button{
 margin-top: 200px
+color:hsl(0, 0%, 95%);
 }
 
 #flex-container1 {
