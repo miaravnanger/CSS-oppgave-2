@@ -55,8 +55,10 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 button{
-margin-top: 200px
+margin-top: 150px;
 color:hsl(0, 0%, 95%);
+height: 80px;
+border-radius: 40%;
 }
 
 #flex-container1 {
@@ -72,3 +74,12 @@ color:hsl(0, 0%, 95%);
   border-radius: 0% 2% 2% 0%;
 }
 
+#flex-container1 button{
+    color:#e38826;
+}
+#flex-container2 button{
+    color:#006970;
+}
+#flex-container3 button{
+    color: #004241;
+}
