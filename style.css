@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* 
 flexfarger:
 Bright orange: #E38826
@@ -24,7 +19,11 @@ Font size paragraf: 15px
 Bildestørrelsen kan evt skaleres ned til 29x46
 
 */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 main {
   height: 100svh;
   width: 100svw;
@@ -35,30 +34,51 @@ main {
 }
 section {
   height: 500px;
-  width: 300px;
+  width: 306px;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding-left: 49px;
+  padding-right: 45px;
+  font-family: Lexend;
   font-size: 15px;
+  font-weight: 400px;
 }
-h2{
-    margin-top: 20px;
-    color: hsl(0, 0%, 95%);
+h2 {
+  margin-top: 35px;
+  color: hsl(0, 0%, 95%);
+  font-family: BigShoulders;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
-img{
 
-    height: 29px;
-    width: 46px;
+img {
+  height: 40px;
+  width: 64px;
+  margin-top: 44px;
 }
-p{
-    margin-top: 50px;
-    color: hsla(0, 0%, 100%, 0.75);
+p {
+  font-size: 15px;
+  line-height: 24px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 50px;
 }
-button{
-margin-top: 150px;
-color:hsl(0, 0%, 95%);
-height: 80px;
-border-radius: 40%;
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  border-style: none;
+  font-family: Lexend;
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
 }
 
 #flex-container1 {
@@ -74,12 +94,21 @@ border-radius: 40%;
   border-radius: 0% 2% 2% 0%;
 }
 
-#flex-container1 button{
-    color:#e38826;
+#flex-container1 button {
+  color: #e38826;
 }
-#flex-container2 button{
-    color:#006970;
+#flex-container2 button {
+  color: #006970;
 }
-#flex-container3 button{
-    color: #004241;
+#flex-container3 button {
+  color: #004241;
+}
+
+@font-face {
+  font-family: BigShoulders;
+  src: url(./fonts/static/BigShoulders-Light.ttf);
+}
+@font-face {
+  font-family: Lexend;
+  src: url(./fonts/Lexend_Deca/static/LexendDeca-Regular.ttf);
 }
