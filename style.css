@@ -24,10 +24,16 @@ Bildestørrelsen kan evt skaleres ned til 29x46
   padding: 0;
   box-sizing: border-box;
 }
-main {
+body {
+  background-color: hsl(0, 0%, 95%);
   height: 100svh;
   width: 100svw;
-  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
   display: flex;
   align-items: center;
   justify-content: center;
