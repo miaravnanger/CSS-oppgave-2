@@ -16,8 +16,6 @@ Font size paragraf: 15px
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders?query=big+shoulders+display)
 - Weights: 700
 
-Bildestørrelsen kan evt skaleres ned til 29x46
-
 */
 * {
   margin: 0;
@@ -28,17 +26,19 @@ body {
   height: 100svh;
   width: 100svw;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 main {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 section {
-  height: 500px;
+  max-height: 500px;
   max-width: 306px;
   display: flex;
   flex-direction: column;
@@ -116,3 +116,7 @@ article {
   font-family: Lexend;
   src: url(./fonts/Lexend_Deca/static/LexendDeca-Regular.ttf);
 }
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
